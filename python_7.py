@@ -50,3 +50,12 @@ def invertir_dic(diccionario):
 
 print(f"Diccionario ral es {diccionario}")
 print(f"El diccionario invertido es {invertir_dic(diccionario)}")
+
+def sumar_arg(*args):
+    suma = 0
+    for y in args:
+        suma += y
+    return suma
+
+resultado = sumar_arg(2,5,3)
+print(f"El resultado de la suma es: {resultado}")
